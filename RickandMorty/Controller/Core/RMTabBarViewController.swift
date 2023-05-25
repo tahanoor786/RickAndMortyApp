@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// controller to show various screens and settings
 final class RMTabBarViewController: UITabBarController {
     
 
