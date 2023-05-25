@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51EBC7E2A1FAFC200DE6CD9 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EBC7D2A1FAFC200DE6CD9 /* RMService.swift */; };
 		F5C3A5BC2A1638F00044A1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3A5BB2A1638F00044A1A9 /* AppDelegate.swift */; };
 		F5C3A5BE2A1638F00044A1A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3A5BD2A1638F00044A1A9 /* SceneDelegate.swift */; };
 		F5C3A5C02A1638F00044A1A9 /* RMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3A5BF2A1638F00044A1A9 /* RMTabBarViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F51EBC7D2A1FAFC200DE6CD9 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		F5C3A5B82A1638F00044A1A9 /* RickandMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickandMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C3A5BB2A1638F00044A1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C3A5BD2A1638F00044A1A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		F5C3A5D32A163DC30044A1A9 /* ApiClient */ = {
 			isa = PBXGroup;
 			children = (
+				F51EBC7D2A1FAFC200DE6CD9 /* RMService.swift */,
 			);
 			path = ApiClient;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				F5C3A5BC2A1638F00044A1A9 /* AppDelegate.swift in Sources */,
 				F5C3A5DA2A163E9D0044A1A9 /* RMEpisode.swift in Sources */,
 				F5C3A5E42A163F8A0044A1A9 /* RMSettingsViewController.swift in Sources */,
+				F51EBC7E2A1FAFC200DE6CD9 /* RMService.swift in Sources */,
 				F5C3A5BE2A1638F00044A1A9 /* SceneDelegate.swift in Sources */,
 				F5C3A5D82A163E8D0044A1A9 /* RMLocation.swift in Sources */,
 				F5C3A5E02A163F670044A1A9 /* RMEpisodeViewController.swift in Sources */,
