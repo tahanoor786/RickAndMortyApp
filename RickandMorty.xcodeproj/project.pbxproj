@@ -14,6 +14,7 @@
 		F51EBC862A210C4E00DE6CD9 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EBC852A210C4E00DE6CD9 /* RMSingleLocation.swift */; };
 		F51EBC882A210C6600DE6CD9 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EBC872A210C6600DE6CD9 /* RMCharacterStatus.swift */; };
 		F51EBC8A2A210D7300DE6CD9 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EBC892A210D7300DE6CD9 /* RMOrigin.swift */; };
+		F51EBC8F2A227C3700DE6CD9 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51EBC8E2A227C3700DE6CD9 /* RMGetAllCharactersResponse.swift */; };
 		F5C3A5BC2A1638F00044A1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3A5BB2A1638F00044A1A9 /* AppDelegate.swift */; };
 		F5C3A5BE2A1638F00044A1A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3A5BD2A1638F00044A1A9 /* SceneDelegate.swift */; };
 		F5C3A5C02A1638F00044A1A9 /* RMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3A5BF2A1638F00044A1A9 /* RMTabBarViewController.swift */; };
@@ -36,6 +37,7 @@
 		F51EBC852A210C4E00DE6CD9 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 		F51EBC872A210C6600DE6CD9 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
 		F51EBC892A210D7300DE6CD9 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		F51EBC8E2A227C3700DE6CD9 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		F5C3A5B82A1638F00044A1A9 /* RickandMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickandMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C3A5BB2A1638F00044A1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C3A5BD2A1638F00044A1A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,25 @@
 				F51EBC892A210D7300DE6CD9 /* RMOrigin.swift */,
 			);
 			path = RMCharacterSubModels;
+			sourceTree = "<group>";
+		};
+		F51EBC8C2A227BE600DE6CD9 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3A5D72A163E8D0044A1A9 /* RMLocation.swift */,
+				F5C3A5D92A163E9D0044A1A9 /* RMEpisode.swift */,
+				F5C3A5DB2A163EAB0044A1A9 /* RMCharacters.swift */,
+				F51EBC8B2A210E5C00DE6CD9 /* RMCharacterSubModels */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		F51EBC8D2A227C0C00DE6CD9 /* APIRequestTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F51EBC8E2A227C3700DE6CD9 /* RMGetAllCharactersResponse.swift */,
+			);
+			name = APIRequestTypes;
 			sourceTree = "<group>";
 		};
 		F5C3A5AF2A1638F00044A1A9 = {
@@ -130,10 +151,8 @@
 		F5C3A5D22A163DB50044A1A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F5C3A5D72A163E8D0044A1A9 /* RMLocation.swift */,
-				F5C3A5D92A163E9D0044A1A9 /* RMEpisode.swift */,
-				F5C3A5DB2A163EAB0044A1A9 /* RMCharacters.swift */,
-				F51EBC8B2A210E5C00DE6CD9 /* RMCharacterSubModels */,
+				F51EBC8D2A227C0C00DE6CD9 /* APIRequestTypes */,
+				F51EBC8C2A227BE600DE6CD9 /* DataTypes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +269,7 @@
 			files = (
 				F51EBC822A1FD4D000DE6CD9 /* RMEndPoints.swift in Sources */,
 				F51EBC862A210C4E00DE6CD9 /* RMSingleLocation.swift in Sources */,
+				F51EBC8F2A227C3700DE6CD9 /* RMGetAllCharactersResponse.swift in Sources */,
 				F51EBC882A210C6600DE6CD9 /* RMCharacterStatus.swift in Sources */,
 				F5C3A5DC2A163EAB0044A1A9 /* RMCharacters.swift in Sources */,
 				F5C3A5E22A163F760044A1A9 /* RMCharacterViewController.swift in Sources */,
